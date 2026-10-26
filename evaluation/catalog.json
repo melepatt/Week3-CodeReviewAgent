@@ -1,0 +1,163 @@
+{
+  "version": 2,
+  "cases": [
+    {
+      "id": "golden-01",
+      "role": "seeded-defect",
+      "url": "https://github.com/melepatt/code-review-agent-demo/pull/1",
+      "head_sha": "9aaac85382cbc3c2cfd01fa80e584916adb3b892",
+      "expected": [
+        {
+          "category_aliases": ["correctness"],
+          "path": "src/order_tools/metrics.py",
+          "start_line": 10,
+          "end_line": 10,
+          "min_severity": "medium",
+          "max_severity": "high"
+        },
+        {
+          "category_aliases": ["security"],
+          "path": "src/order_tools/reporting.py",
+          "start_line": 8,
+          "end_line": 14,
+          "min_severity": "high",
+          "max_severity": "critical"
+        },
+        {
+          "category_aliases": ["test-gap"],
+          "path": "src/order_tools/reporting.py",
+          "start_line": 6,
+          "end_line": 15,
+          "min_severity": "low",
+          "max_severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "golden-02",
+      "role": "clean-control",
+      "url": "https://github.com/melepatt/code-review-agent-demo/pull/2",
+      "head_sha": "99c1bd161c345f8bc63c6ab5ca1f19c7df34b41a",
+      "expected": []
+    },
+    {
+      "id": "golden-03",
+      "role": "seeded-defect",
+      "url": "https://github.com/melepatt/code-review-agent-demo/pull/3",
+      "head_sha": "fa744571344980e536911bc51c0be26591a667f6",
+      "expected": [
+        {
+          "category_aliases": ["correctness"],
+          "path": "src/order_tools/discounts.py",
+          "start_line": 6,
+          "end_line": 6,
+          "min_severity": "medium",
+          "max_severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "golden-04",
+      "role": "seeded-defect",
+      "url": "https://github.com/melepatt/code-review-agent-demo/pull/6",
+      "head_sha": "20edb9b3c56499f0cc050ea02c175902019a61e5",
+      "expected": [
+        {
+          "category_aliases": ["correctness"],
+          "path": "src/order_tools/statistics.py",
+          "start_line": 6,
+          "end_line": 6,
+          "min_severity": "medium",
+          "max_severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "golden-05",
+      "role": "seeded-defect",
+      "url": "https://github.com/melepatt/code-review-agent-demo/pull/4",
+      "head_sha": "365edc372e5aa98ef437cc8b284470846727b05c",
+      "expected": [
+        {
+          "category_aliases": ["security"],
+          "path": "src/order_tools/invoices.py",
+          "start_line": 8,
+          "end_line": 9,
+          "min_severity": "high",
+          "max_severity": "critical"
+        }
+      ]
+    },
+    {
+      "id": "golden-06",
+      "role": "seeded-defect",
+      "url": "https://github.com/melepatt/code-review-agent-demo/pull/5",
+      "head_sha": "f68b49804adc15dcb72932671259527cce51f1dd",
+      "expected": [
+        {
+          "category_aliases": ["security"],
+          "path": "src/order_tools/tokens.py",
+          "start_line": 6,
+          "end_line": 6,
+          "min_severity": "high",
+          "max_severity": "critical"
+        }
+      ]
+    },
+    {
+      "id": "golden-07",
+      "role": "seeded-defect",
+      "url": "https://github.com/melepatt/code-review-agent-demo/pull/7",
+      "head_sha": "0e685df6235e43e65fe33b5f56a353453b1462be",
+      "expected": [
+        {
+          "category_aliases": ["test-gap"],
+          "path": "src/order_tools/retry.py",
+          "start_line": 4,
+          "end_line": 8,
+          "min_severity": "medium",
+          "max_severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "golden-08",
+      "role": "seeded-defect",
+      "url": "https://github.com/melepatt/code-review-agent-demo/pull/9",
+      "head_sha": "1c69bc8456b9f2ba9c1554404746ea7ac3b67af8",
+      "expected": [
+        {
+          "category_aliases": ["correctness"],
+          "path": "src/order_tools/inventory.py",
+          "start_line": 6,
+          "end_line": 6,
+          "min_severity": "high",
+          "max_severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "golden-09",
+      "role": "clean-control",
+      "url": "https://github.com/melepatt/code-review-agent-demo/pull/8",
+      "head_sha": "b8d3c3b3cf98164eb968cc8a7182662c0f0d9e43",
+      "expected": []
+    },
+    {
+      "id": "golden-10",
+      "role": "malformed-recovery",
+      "url": "https://github.com/melepatt/code-review-agent-demo/pull/10",
+      "head_sha": "f41beb3085a8fcbe4d5b9e3291814567faa20d3c",
+      "expected": [
+        {
+          "category_aliases": ["correctness"],
+          "path": "src/order_tools/averages.py",
+          "start_line": 6,
+          "end_line": 6,
+          "min_severity": "medium",
+          "max_severity": "medium"
+        }
+      ]
+    }
+  ]
+}

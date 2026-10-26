@@ -1,0 +1,33 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.streamlit/secrets.toml
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Packages and temporary output
+build/
+dist/
+tmp/
+*.log
+.DS_Store
+
+# Generated private/operational artifacts
+evaluation/runs/
+traces/
+*.trace.json
+.superpowers/

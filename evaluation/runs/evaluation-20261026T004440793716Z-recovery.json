@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "case_id": "golden-10",
+      "error": null,
+      "findings": [],
+      "partial_recovery": false,
+      "role": "malformed-recovery",
+      "specialists_completed": 1,
+      "status": "success"
+    }
+  ],
+  "metrics": {
+    "clean_control": "N/A",
+    "duplicate_rate": 0.0,
+    "location_agreement": "N/A",
+    "partial_recovery": false,
+    "precision": "N/A",
+    "recall": 0.0,
+    "severity_agreement": "N/A",
+    "specialist_completion": 0.3333333333333333
+  },
+  "timestamp": "20261026T004440793716Z"
+}

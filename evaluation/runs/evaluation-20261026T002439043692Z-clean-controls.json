@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "case_id": "golden-02",
+      "error": null,
+      "findings": [
+        {
+          "category": "correctness",
+          "end_line": 9,
+          "identifier": "correctness",
+          "path": "src/order_tools/metrics.py",
+          "severity": "high",
+          "start_line": 6
+        }
+      ],
+      "partial_recovery": false,
+      "role": "clean-control",
+      "specialists_completed": 3,
+      "status": "success"
+    },
+    {
+      "case_id": "golden-09",
+      "error": null,
+      "findings": [],
+      "partial_recovery": false,
+      "role": "clean-control",
+      "specialists_completed": 3,
+      "status": "success"
+    }
+  ],
+  "metrics": {
+    "clean_control": false,
+    "duplicate_rate": 0.0,
+    "location_agreement": "N/A",
+    "partial_recovery": "N/A",
+    "precision": 0.0,
+    "recall": "N/A",
+    "severity_agreement": "N/A",
+    "specialist_completion": 1.0
+  },
+  "timestamp": "20261026T002439043692Z"
+}
